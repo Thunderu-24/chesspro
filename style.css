@@ -1,0 +1,56 @@
+#gameBoard{
+    width: 320px;
+    height: 320px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px black;
+}
+.para{
+    color: white;
+    font-weight: bolder ;
+}
+
+.square{
+    height: 40px;
+    width: 40px;
+}
+.main{
+    background-color: aqua;
+    background-image: url("https://images.chesscomfiles.com/uploads/v1/chess_term/448a4fda-07bb-11ed-a1cf-49f9647914b8.913e119e.630x354o.25e8637bfc9b@2x.png");
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.beige{
+    background-color: rgb(110, 110, 98);
+}
+.brown{
+    background-color: brown; 
+}
+
+.square svg{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    position: relative;
+    z-index: -1;
+}
+path{
+    position: relative;
+    z-index: -2;
+}
+.piece{
+    position: relative;
+    z-index: 1;
+}
+.black{
+    fill: black;
+}
+.white{
+    fill: white;
+}
